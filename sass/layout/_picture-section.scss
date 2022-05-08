@@ -1,0 +1,27 @@
+.pictures-section__summary {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: $bg-color;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+  
+  .picures-section {
+    padding-top: 0;
+  }
+  
+  .pictures-section__item {
+    position: relative;
+  }
+  
+  .pictures-section__header,
+  .light-bg-header,
+  .clients-header {
+    margin-bottom: 50px;
+  }

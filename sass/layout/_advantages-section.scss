@@ -1,0 +1,60 @@
+.advantages,
+.pictures-section__list,
+.crew-list,
+.examples,
+.portf-filter,
+.follow-crew-links,
+.client-link,
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages__item {
+  max-width: 270px;
+}
+
+.advantages__iconss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: $light-bg-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.advantages__icon {
+  width: 70px;
+  height: 70px;
+  align-items: center;
+}
+
+.advantages__item + .advantages__item,
+.pictures-section__item + .pictures-section__item,
+.crew-list__el:not(:first-child),
+.clients-list-el + .clients-list-el {
+  margin-left: 30px;
+}
+
+.advantages__paragraf,
+.pictures-section__summary,
+.follow-us-paragraf {
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: $headers-color;
+  text-transform: uppercase;
+}
+
+.advantages__text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: $main-text-color;
+}

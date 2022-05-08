@@ -1,0 +1,49 @@
+
+.adress__element + .adress__element {
+    margin-left: 30px;
+  }
+  
+  .adress__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms $animation-patern;
+
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+  
+  .terms-of-use-link {
+    color: $accent-color;
+  }
+  
+  .adresses {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+  }
+  
+  .adress__link {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color: $main-text-color;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .adress__icon {
+    margin-right: 10px;
+    fill: currentColor;
+    float: left;
+  }
+  
+  .adress-link-footer:focus,
+  .adress-link-footer:hover {
+    color: $accent-color;
+  }
