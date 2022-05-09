@@ -1,3 +1,7 @@
+.crew-list {
+  @extend %center-flex;
+}
+
 .crew-list__head {
     margin-bottom: 10px;
     font-weight: 700;
@@ -7,7 +11,7 @@
     color: $headers-color;
   }
   
-  .light-bg-section {
+  .section--light-bg {
     background-color: $light-bg-color;
   }
   
@@ -24,16 +28,21 @@
     padding-bottom: 30px;
   }
 
-  .follow-crew-links {
+  .follow-crew {
+    @extend %center-flex;
     margin-top: 16px;
   }
 
-  .follow-crew-el {
+  .follow-crew__el {
     width: 44px;
     height: 44px;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
   }
   
-  .follow-crew-link {
+  .follow-crew__link {
     display: flex;
     align-items: center;
     justify-content: center;

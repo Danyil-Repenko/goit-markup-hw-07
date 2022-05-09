@@ -1,4 +1,9 @@
-.client-link {
+.clients-list {
+  @extend %center-flex;
+}
+
+.clients-list__link {
+  @extend %center-flex;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -15,7 +20,7 @@
   }
   
   
-  .clients-list-el {
+  .clients-list__el {
     width: 170px;
     height: 92px;
   }

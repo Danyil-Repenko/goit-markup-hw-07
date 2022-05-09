@@ -24,7 +24,7 @@
     transition: transform 250ms $animation-patern;
   }
   
-  .form-headline {
+  .modal-headline {
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
@@ -39,18 +39,6 @@
     flex-direction: column;
   }
   
-  .input-label {
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-  }
-  
-  .input-text {
-    display: block;
-    margin-bottom: 4px;
-    cursor: pointer;
-    color: #757575;
-  }
   
   .input-container {
     position: relative;
@@ -60,103 +48,6 @@
   
   .form-field {
     margin-bottom: 10px;
-  }
-  
-  .input-field {
-    display: block;
-    height: 100%;
-    width: 100%;
-    padding: 11px 12px;
-    padding-left: 42px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    outline: transparent;
-    background-color: transparent;
-    cursor: pointer;
-    transition: border-color 250ms $animation-patern;
-
-    &:focus {
-        border-color: $accent-color;
-      }
-  }
-  
-  
-  
-  .comment {
-    height: 120px;
-    padding: 12px 16px;
-    resize: none;
-
-    &::placeholder {
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.01em;
-        color: rgba(117, 117, 117, 0.5);
-      }
-  }
-  
-  
-  .modal-icon {
-    position: absolute;
-    top: 50%;
-    margin-left: 12px;
-    transform: translateY(-50%);
-    transition: color 250ms $animation-patern;
-    fill: currentColor;
-    cursor: pointer;
-  }
-  
-  .input-field:focus + .modal-icon {
-    color: $accent-color;
-  }
-  
-  .terms-of-use {
-    position: absolute;
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: auto;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap;
-  }
-  
-  .checkbox-field {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .checkbox-label {
-    position: relative;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-    padding-left: 22px;
-    margin: 0;
-    cursor: pointer;
-  }
-  
-  .terms-of-use:checked ~ .checkbox-icon {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='15' fill='none'%3E%3Crect width='16' height='15' rx='2' fill='%232196F3'/%3E%3Crect width='16' height='15' rx='2' fill='%232196F3'/%3E%3Cpath d='m3.957 7.752-.069-.066-.069.065-.888.842-.076.072.076.073 3.496 3.334.069.066.069-.066 7.504-7.158.076-.073-.076-.072-.882-.841-.069-.066-.069.066-6.553 6.246-2.539-2.422Z' fill='%23fff' stroke='%23fff' stroke-width='.2'/%3E%3C/svg%3E");
-  }
-  
-  .checkbox-icon {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    display: inline-block;
-    margin-right: 10px;
-    content: "";
-    width: 16px;
-    height: 15px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='15' fill='none'%3E%3Cpath d='M14.222 1.667v11.666H1.778V1.667h12.444Zm0-1.667H1.778C.8 0 0 .75 0 1.667v11.666C0 14.25.8 15 1.778 15h12.444C15.2 15 16 14.25 16 13.333V1.667C16 .75 15.2 0 14.222 0Z' fill='%23212121'/%3E%3C/svg%3E");
-    transition: background-image 250ms $animation-patern;
   }
   
   .submit-button {
@@ -173,32 +64,5 @@
   
   .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(1.1);
-  }
-  
-  .close-modal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    background: $bg-color;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    color: #000000;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: color 250ms $animation-patern;
-
-    &:hover,
-    &:focus {
-      color: $accent-color;
-    }
-  }
-  
-  .criss-cross {
-    fill: currentColor;
   }
   
