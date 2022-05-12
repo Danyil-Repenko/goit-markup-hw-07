@@ -15,25 +15,23 @@
   </head>
   <body>
     <header class="header">
-      <div class="container flex-container">
-        <a href="/" class="logo logo--second-half"
-          ><span class="logo logo--first-half">Web</span>Studio</a
-        >
+      <div class="container header--container">
+        <a href="/" class="logo"><span class="logo--web">Web</span>Studio</a>
         <nav>
           <ul class="nav">
-            <li class="nav__element">
-              <a class="nav__page" href="./index.html">Студия</a>
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html">Студия</a>
             </li>
-            <li class="nav__element nav__page--active">
-              <a class="nav__page" href="./portfolio.html">Портфолио</a>
+            <li class="nav__item nav__item--active">
+              <a class="nav__link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="nav__element">
-              <a class="nav__page" href="/">Контакты</a>
+            <li class="nav__item">
+              <a class="nav__link" href="/">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="adresses">
-          <li class="adress__element">
+          <li class="adress__item">
             <a class="adress__link" href="mailto:info@devstudio.com">
               <svg class="adress__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope-icon"></use>
@@ -42,7 +40,7 @@
             >
             <!--змінити не можу, Prettier виправляє-->
           </li>
-          <li class="adress__element">
+          <li class="adress__item">
             <a class="adress__link" href="tel:+380961111111"
               ><svg class="adress__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-phone-icon"></use>
@@ -59,13 +57,17 @@
           <h1 class="section-header visually-hidden">Портфолио</h1>
           <ul class="portf-filter">
             <li class="portf-filter__el">
-              <button class="portf-filter__btn defoult-btn" type="button">Все</button>
+              <button class="portf-filter__btn defoult-btn" type="button">
+                Все
+              </button>
             </li>
             <li class="portf-filter__el">
               <button class="portf-filter__btn" type="button">Веб-сайты</button>
             </li>
             <li class="portf-filter__el">
-              <button class="portf-filter__btn" type="button">Приложения</button>
+              <button class="portf-filter__btn" type="button">
+                Приложения
+              </button>
             </li>
             <li class="portf-filter__el">
               <button class="portf-filter__btn" type="button">Дизайн</button>
@@ -273,7 +275,9 @@
                   </p>
                 </div>
                 <div class="examples__text">
-                  <h2 class="paragraf-head examples__head" lang="en">Growing Business</h2>
+                  <h2 class="paragraf-head examples__head" lang="en">
+                    Growing Business
+                  </h2>
                   <p class="text">Приложение</p>
                 </div></a
               >
@@ -285,8 +289,8 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="adresses-section">
-          <a href="/" class="logo footer__logo--second-half"
-            ><span class="logo logo--first-half">Web</span>Studio</a
+          <a href="/" class="footer__logo"
+            ><span class="logo--web">Web</span>Studio</a
           >
           <address>
             <ul class="footer-adress">

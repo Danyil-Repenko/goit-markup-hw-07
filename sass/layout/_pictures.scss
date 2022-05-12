@@ -23,6 +23,10 @@
   
   .pictures-section__item {
     position: relative;
+
+    & + & {
+      margin-left: 30px;
+    }
   }
   
   .pictures-section__header,

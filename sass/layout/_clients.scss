@@ -23,6 +23,10 @@
   .clients-list__el {
     width: 170px;
     height: 92px;
+
+    & + & {
+      margin-left: 30px;
+    }
   }
   
   .logo-icon {

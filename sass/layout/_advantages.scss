@@ -4,6 +4,10 @@
 
 .advantages__item {
   max-width: 270px;
+
+  & + & {
+    margin-left: 30px;
+  }
 }
 
 .advantages__iconss {
@@ -19,13 +23,6 @@
   width: 70px;
   height: 70px;
   align-items: center;
-}
-
-.advantages__item + .advantages__item,
-.pictures-section__item + .pictures-section__item,
-.crew-list__el:not(:first-child),
-.clients-list__el + .clients-list__el {
-  margin-left: 30px;
 }
 
 .advantages__paragraf {
