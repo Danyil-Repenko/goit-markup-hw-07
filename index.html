@@ -15,7 +15,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header--container">
+      <div class="container header__container">
         <a href="/" class="logo"><span class="logo--web">Web</span>Studio</a>
         <nav>
           <ul class="nav">
@@ -56,7 +56,7 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero__header">
+          <h1 class="hero__title">
             Эффективные решения<br />для вашего бизнеса
           </h1>
           <button class="btn" type="button" data-modal-open>
@@ -66,51 +66,51 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="section-header visually-hidden">Наши преимущества</h2>
+          <h2 class="section__title visually-hidden">Наши преимущества</h2>
           <ul class="advantages">
             <li class="advantages__item">
-              <div class="advantages__iconss">
+              <div class="advantages__icon-box">
                 <svg class="advantages__icon">
                   <use href="./images/icons.svg#icon-antenna-icon"></use>
                 </svg>
               </div>
-              <h3 class="advantages__paragraf">Внимание к деталям</h3>
+              <h3 class="advantages__title">Внимание к деталям</h3>
               <p class="advantages__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
             <li class="advantages__item">
-              <div class="advantages__iconss">
+              <div class="advantages__icon-box">
                 <svg class="advantages__icon">
                   <use href="./images/icons.svg#icon-clock-icon"></use>
                 </svg>
               </div>
-              <h3 class="advantages__paragraf">Пунктуальность</h3>
+              <h3 class="advantages__title">Пунктуальность</h3>
               <p class="advantages__text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
             <li class="advantages__item">
-              <div class="advantages__iconss">
+              <div class="advantages__icon-box">
                 <svg class="advantages__icon">
                   <use href="./images/icons.svg#icon-diagram-icon"></use>
                 </svg>
               </div>
-              <h3 class="advantages__paragraf">Планирование</h3>
+              <h3 class="advantages__title">Планирование</h3>
               <p class="advantages__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
             <li class="advantages__item">
-              <div class="advantages__iconss">
+              <div class="advantages__icon-box">
                 <svg class="advantages__icon">
                   <use href="./images/icons.svg#icon-astronaut-icon"></use>
                 </svg>
               </div>
-              <h3 class="advantages__paragraf">Современные технологии</h3>
+              <h3 class="advantages__title">Современные технологии</h3>
               <p class="advantages__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
@@ -119,59 +119,57 @@
           </ul>
         </div>
       </section>
-      <section class="section picures-section">
+      <section class="section--no-padding-top">
         <div class="container">
-          <h2 class="section-header pictures-section__header">
-            Чем мы занимаемся
-          </h2>
-          <ul class="pictures-section__list">
-            <li class="pictures-section__item">
+          <h2 class="section__title">Чем мы занимаемся</h2>
+          <ul class="pictures-list">
+            <li class="pictures-list__item">
               <img
                 class="image"
                 src="images/tech_1.jpg"
                 alt="кодинг"
                 width="370"
               />
-              <p class="pictures-section__summary">Десктопные приложения</p>
+              <p class="pictures-list__text">Десктопные приложения</p>
             </li>
-            <li class="pictures-section__item">
+            <li class="pictures-list__item">
               <img
                 class="image"
                 src="images/tech_2.jpg"
                 alt="розкладка контента"
                 width="370"
               />
-              <p class="pictures-section__summary">Мобильные приложения</p>
+              <p class="pictures-list__text">Мобильные приложения</p>
             </li>
-            <li class="pictures-section__item">
+            <li class="pictures-list__item">
               <img
                 class="image"
                 src="images/tech_3.jpg"
                 alt="выбор цвета"
                 width="370"
               />
-              <p class="pictures-section__summary">Дизайнерские решения</p>
+              <p class="pictures-list__text">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
       </section>
       <section class="section section--light-bg">
         <div class="container">
-          <h2 class="section-header header--light-bg">Наша команда</h2>
+          <h2 class="section__title">Наша команда</h2>
           <ul class="crew-list">
-            <li class="crew-list__el">
+            <li class="crew-list__item">
               <img
                 class="image"
                 src="images/crew_1.jpg"
                 alt="Дизайнер продукта"
                 width="270"
               />
-              <div class="crew-list__text">
-                <h3 class="crew-list__head">Игорь Демьяненко</h3>
+              <div class="crew-list__box">
+                <h3 class="crew-list__title">Игорь Демьяненко</h3>
                 <p class="text" lang="en">Product Designer</p>
-                <ul class="follow-crew">
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                <ul class="social">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use
                           href="./images/icons.svg#icon-instagram-icon"
@@ -179,22 +177,22 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-twitter-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-facebook-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-linkedin-icon"></use>
                       </svg>
@@ -203,19 +201,19 @@
                 </ul>
               </div>
             </li>
-            <li class="crew-list__el">
+            <li class="crew-list__item">
               <img
                 class="image"
                 src="images/crew_2.jpg"
                 alt="Розработчик фронт-енд"
                 width="270"
               />
-              <div class="crew-list__text">
-                <h3 class="crew-list__head">Ольга Репина</h3>
+              <div class="crew-list__box">
+                <h3 class="crew-list__title">Ольга Репина</h3>
                 <p class="text" lang="en">Frontend Developer</p>
-                <ul class="follow-crew">
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                <ul class="social">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use
                           href="./images/icons.svg#icon-instagram-icon"
@@ -223,22 +221,22 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-twitter-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-facebook-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-linkedin-icon"></use>
                       </svg>
@@ -247,19 +245,19 @@
                 </ul>
               </div>
             </li>
-            <li class="crew-list__el">
+            <li class="crew-list__item">
               <img
                 class="image"
                 src="images/crew_3.jpg"
                 alt="Глава маркетинга"
                 width="270"
               />
-              <div class="crew-list__text">
-                <h3 class="crew-list__head">Николай Тарасов</h3>
+              <div class="crew-list__box">
+                <h3 class="crew-list__title">Николай Тарасов</h3>
                 <p class="text" lang="en">Marketing</p>
-                <ul class="follow-crew">
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                <ul class="social">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use
                           href="./images/icons.svg#icon-instagram-icon"
@@ -267,22 +265,22 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-twitter-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-facebook-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-linkedin-icon"></use>
                       </svg>
@@ -291,19 +289,19 @@
                 </ul>
               </div>
             </li>
-            <li class="crew-list__el">
+            <li class="crew-list__item">
               <img
                 class="image"
                 src="images/crew_4.jpg"
                 alt="Дизайнер"
                 width="270"
               />
-              <div class="crew-list__text">
-                <h3 class="crew-list__head">Михаил Ермаков</h3>
+              <div class="crew-list__box">
+                <h3 class="crew-list__title">Михаил Ермаков</h3>
                 <p class="text" lang="en">UI Designer</p>
-                <ul class="follow-crew">
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                <ul class="social">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use
                           href="./images/icons.svg#icon-instagram-icon"
@@ -311,22 +309,22 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-twitter-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-facebook-icon"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="follow-crew__el">
-                    <a class="follow-crew__link" href="/">
+                  <li class="social__item">
+                    <a class="social__link" href="/">
                       <svg class="social__icon">
                         <use href="./images/icons.svg#icon-linkedin-icon"></use>
                       </svg>
@@ -334,52 +332,49 @@
                   </li>
                 </ul>
               </div>
-            </li>
-          </ul>
-        </div>
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="section-header clients-header">Постоянные клиенты</h2>
-          <ul class="clients-list">
-            <li class="clients-list__el">
-              <a class="clients-list__link" href="/">
-                <svg class="logo-icon">
+          <h2 class="section__title">Постоянные клиенты</h2>
+          <ul class="clients">
+            <li class="clients__item">
+              <a class="clients__link" href="/">
+                <svg class="clients__icon">
                   <use href="./images/icons.svg#icon-logo1-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list__el">
-              <a class="clients-list__link" href="/">
-                <svg class="logo-icon">
+            <li class="clients__item">
+              <a class="clients__link" href="/">
+                <svg class="clients__icon">
                   <use href="./images/icons.svg#icon-logo2-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list__el">
-              <a class="clients-list__link" href="/">
-                <svg class="logo-icon">
+            <li class="clients__item">
+              <a class="clients__link" href="/">
+                <svg class="clients__icon">
                   <use href="./images/icons.svg#icon-logo3-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list__el">
-              <a class="clients-list__link" href="/">
-                <svg class="logo-icon">
+            <li class="clients__item">
+              <a class="clients__link" href="/">
+                <svg class="clients__icon">
                   <use href="./images/icons.svg#icon-logo4-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list__el">
-              <a class="clients-list__link" href="/">
-                <svg class="logo-icon">
+            <li class="clients__item">
+              <a class="clients__link" href="/">
+                <svg class="clients__icon">
                   <use href="./images/icons.svg#icon-logo5-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-list__el">
-              <a class="clients-list__link" href="/">
-                <svg class="logo-icon">
+            <li class="clients__item">
+              <a class="clients__link" href="/">
+                <svg class="clients__icon">
                   <use href="./images/icons.svg#icon-logo6-icon"></use>
                 </svg>
               </a>
@@ -418,31 +413,31 @@
           </address>
         </div>
         <div class="follow-us">
-          <h3 class="follow-us__paragraf">присоединяйтесь</h3>
-          <ul class="follow-us-links">
-            <li class="follow-us-links__el">
-              <a class="follow-us-links__link" href="/">
+          <h3 class="follow-us__title">присоединяйтесь</h3>
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link--footer" href="/">
                 <svg class="social__icon">
                   <use href="./images/icons.svg#icon-instagram-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="follow-us-links__el">
-              <a class="follow-us-links__link" href="/">
+            <li class="social__item">
+              <a class="social__link--footer" href="/">
                 <svg class="social__icon">
                   <use href="./images/icons.svg#icon-twitter-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="follow-us-links__el">
-              <a class="follow-us-links__link" href="/">
+            <li class="social__item">
+              <a class="social__link--footer" href="/">
                 <svg class="social__icon">
                   <use href="./images/icons.svg#icon-facebook-icon"></use>
                 </svg>
               </a>
             </li>
-            <li class="follow-us-links__el">
-              <a class="follow-us-links__link" href="/">
+            <li class="social__item">
+              <a class="social__link--footer" href="/">
                 <svg class="social__icon">
                   <use href="./images/icons.svg#icon-linkedin-icon"></use>
                 </svg>
@@ -451,7 +446,7 @@
           </ul>
         </div>
         <div class="contact-modal">
-          <h3 class="follow-us__paragraf">Подпишитесь на рассылку</h3>
+          <h3 class="follow-us__title">Подпишитесь на рассылку</h3>
           <form class="contact-form" autocomplete="off">
             <input
               type="email"

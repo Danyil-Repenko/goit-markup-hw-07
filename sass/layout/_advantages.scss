@@ -10,7 +10,7 @@
   }
 }
 
-.advantages__iconss {
+.advantages__icon-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
   align-items: center;
 }
 
-.advantages__paragraf {
+.advantages__title {
   @extend %caps-text;
 }
 
